@@ -1,0 +1,17 @@
+                                             Block Game 
+
+  In this game, player has to avoid obstacles and collect coins. 1 coin gives 1 score. When obstacle collide
+  with player 1 live reduce. Total lives are 3. When live=0, Game is over. 
+
+  Steps: 
+
+  1) Player and its movements 
+      Use transform.translate for movement and set boundary.									 
+  2) Obstacle and Spawning
+    create prefab of 1 obstacle by combining four cubes.
+    spawn using instantiate. 	
+  3) Coins spawned using instantiate.
+  4) Lives and score updated in game manager class.
+
+  Faced issue in spawning of obstacle.
+  I enjoyed spawning of obstacle because it gives me great learning.      
